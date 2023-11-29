@@ -146,6 +146,7 @@ MonoBehaviour:
   features:
   - {fileID: -1220774218782034684}
   - {fileID: 3575900091184770700}
+  - {fileID: -5054256925680745383}
   - {fileID: 903994074932163771}
   - {fileID: 4142870177604341846}
   - {fileID: -200231309472624416}
@@ -317,12 +318,12 @@ MonoBehaviour:
   m_Name: HandTracking WSA
   m_EditorClassIdentifier: 
   m_enabled: 0
-  nameUi: 
-  version: 
-  featureIdInternal: 
-  openxrExtensionStrings: 
-  company: 
-  priority: 0
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
   required: 0
 --- !u!114 &-3896683582500430997
 MonoBehaviour:
