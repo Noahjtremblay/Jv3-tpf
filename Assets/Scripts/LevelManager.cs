@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Threading.Tasks;
+using System;
 
 public class LevelManager : MonoBehaviour
 {
@@ -32,18 +33,19 @@ public class LevelManager : MonoBehaviour
 
     public void LoadNewGame()
     {
-        SceneManager.LoadScene(Scene.Level01.ToString());
+        SceneManager.LoadScene(Scene.Exterieur.ToString());
     }
 
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene(Scene.MainMenu.ToString());
+        SceneManager.LoadScene(Scene.SceneDepart.ToString());
     }
 
     public void QuitGame()
     {
         Application.Quit();
     }
+
 
     public async void LoadAsyncScene(Scene sceneName)
     {
@@ -65,8 +67,9 @@ public class LevelManager : MonoBehaviour
 
     public enum Scene
     {
-        MainMenu,
-        Level01,
-        Level02
+        SceneDepart,
+        Exterieur,
+        BreakRoom,
+
     }
 }
