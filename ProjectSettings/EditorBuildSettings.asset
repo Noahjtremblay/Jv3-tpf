@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/VRVersion2.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/BreakRoom.unity
+    guid: cc9a405cc2ce7ba4fb9744fc13009d85
+  - enabled: 1
+    path: Assets/Scenes/Exterieur.unity
+    guid: 6b0e0175b89c276449f2f90929666467
+  - enabled: 1
+    path: Assets/SceneEve/EveScene/SceneSalleAManger.unity
+    guid: 29523dadb7a303448bcd44dd5ab8dafb
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 87231dbe98eb3974a8ebc73826cc2106,
       type: 2}
