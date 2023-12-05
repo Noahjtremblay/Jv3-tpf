@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ZoneSceneSalleAManger : MonoBehaviour
 {
-     private LevelManager _levelManager;
+    private LevelManager _levelManager;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +19,6 @@ public class ZoneSceneSalleAManger : MonoBehaviour
     /// <param name="other">The other Collider involved in this collision.</param>
     private void OnTriggerEnter(Collider other)
     {
-        _levelManager.LoadAsyncScene(LevelManager.Scene.SceneSalleAManger);
+        //_levelManager.LoadAsyncScene(LevelManager.Scene.SceneSalleAManger);
     }
 }
