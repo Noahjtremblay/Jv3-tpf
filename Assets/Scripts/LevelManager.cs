@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
 
     public void LoadNewGame()
     {
-        SceneManager.LoadScene(Scene.ExterieurV2.ToString());
+        SceneManager.LoadScene(Scene.Exterieur_V2.ToString());
     }
 
     public void LoadMainMenu()
@@ -68,7 +68,7 @@ public class LevelManager : MonoBehaviour
     public enum Scene
     {
         SceneDepart,
-        ExterieurV2,
+        Exterieur_V2,
         BreakRoom
     }
 }
