@@ -52,5 +52,6 @@
         "temp/":true,
         "Temp/":true
     },
-    "dotnet.defaultSolution": "Jv3-tpf.sln"
+    "dotnet.defaultSolution": "Jv3-tpf.sln",
+    "dotnet.preferCSharpExtension": true
 }

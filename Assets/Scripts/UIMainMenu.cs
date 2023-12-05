@@ -21,7 +21,7 @@ public class UIMainMenu : MonoBehaviour
 
     private void StartNewGame()
     {
-        _LevelManager.LoadAsyncScene(LevelManager.Scene.Exterieur);
+        _LevelManager.LoadAsyncScene(LevelManager.Scene.ExterieurV2);
     }
 
     private void QuitGame()
