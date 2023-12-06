@@ -9,15 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/VRVersion2.unity
     guid: fb9c6ca27b8ac97458a44bd6a8d2e597
   - enabled: 1
+    path: Assets/Scenes/Exterieur_V2.unity
+    guid: cc353ea0a939c544db51d5c220d33ed7
+  - enabled: 0
     path: Assets/Scenes/Exterieur-V2.unity
     guid: 6b0e0175b89c276449f2f90929666467
   - enabled: 1
     path: Assets/SceneEve/EveScene/SceneSalleAManger.unity
     guid: 29523dadb7a303448bcd44dd5ab8dafb
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BreakRoom.unity
     guid: cc9a405cc2ce7ba4fb9744fc13009d85
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SceneDepart.unity
     guid: dc3dd300b9d003a4e808c61d23fd357f
   m_configObjects:
