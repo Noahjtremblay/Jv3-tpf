@@ -69,6 +69,7 @@ public class LevelManager : MonoBehaviour
     {
         SceneDepart,
         Exterieur_V2,
+        SceneSalleAManger,
         BreakRoom
     }
 }

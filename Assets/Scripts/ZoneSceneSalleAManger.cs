@@ -13,12 +13,10 @@ public class ZoneSceneSalleAManger : MonoBehaviour
     }
 
 
-    /// <summary>
-    /// OnTriggerEnter is called when the Collider other enters the trigger.
-    /// </summary>
-    /// <param name="other">The other Collider involved in this collision.</param>
+   
     private void OnTriggerEnter(Collider other)
     {
-        //_levelManager.LoadAsyncScene(LevelManager.Scene.SceneSalleAManger);
+        _levelManager.LoadAsyncScene(LevelManager.Scene.SceneSalleAManger);
+        Debug.Log("trigger fonctionne");
     }
 }
