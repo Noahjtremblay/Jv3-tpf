@@ -6356,6 +6356,33 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558120665}
   m_Mesh: {fileID: 9063282021506116237, guid: 34e386a75bb8feb4aa0f48b512cbb268, type: 3}
+--- !u!1 &564065336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2740455561549668213, guid: c79a7611b2ab953498987ff2172a65cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1774462107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &564065340
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564065336}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9c004bd12b5bcad4e92d2d9bbed938c5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &576672563
 GameObject:
   m_ObjectHideFlags: 0
@@ -15901,6 +15928,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1421494174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5826607056782089440, guid: 1cdacb567478f4342bdbef19ccde44ed,
+    type: 3}
+  m_PrefabInstance: {fileID: 694316445394904349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1421494178
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421494174}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 694aa064db1167e4e9b65b7823151823, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1433292886
 GameObject:
   m_ObjectHideFlags: 0
@@ -20341,7 +20395,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1566515290}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2740455561549668213, guid: c79a7611b2ab953498987ff2172a65cb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 564065340}
   m_SourcePrefab: {fileID: 100100000, guid: c79a7611b2ab953498987ff2172a65cb, type: 3}
 --- !u!4 &1774462108 stripped
 Transform:
@@ -24065,5 +24123,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5826607056782089440, guid: 1cdacb567478f4342bdbef19ccde44ed,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1421494178}
   m_SourcePrefab: {fileID: 100100000, guid: 1cdacb567478f4342bdbef19ccde44ed, type: 3}
