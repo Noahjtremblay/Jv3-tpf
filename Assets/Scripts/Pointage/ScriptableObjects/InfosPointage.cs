@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[CreateAssetMenu(fileName = "InfosPointage", menuName = "SO/NiveauPoints")]
+[CreateAssetMenu(fileName = "InfosPointage", menuName = "ScriptableObjects/NiveauPoints")]
 public class InfosPointage : ScriptableObject
 {
-   [SerializeField] 
-public bool poubelle;
+    public bool poubelle;
 
     public int nbPoints;
     
