@@ -16,7 +16,10 @@ public class ZoneSceneSalleAManger : MonoBehaviour
    
     private void OnTriggerEnter(Collider other)
     {
-        _levelManager.LoadAsyncScene(LevelManager.Scene.SceneSalleAManger);
+        if(other.CompareTag("key")){
+            _levelManager.LoadAsyncScene(LevelManager.Scene.SceneSalleAManger);
         Debug.Log("trigger fonctionne");
+        }
+        
     }
 }
