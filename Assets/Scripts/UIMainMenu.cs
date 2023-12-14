@@ -16,7 +16,7 @@ public class UIMainMenu : MonoBehaviour
     {
         _LevelManager = LevelManager.Instance;
         _newGame.onClick.AddListener(StartNewGame);
-        //_quitGame.onClick.AddListener(QuitGame);
+        _quitGame.onClick.AddListener(QuitGame);
     }
 
     private void StartNewGame()
