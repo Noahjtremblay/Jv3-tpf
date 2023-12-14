@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/VRVersion2.unity
     guid: fb9c6ca27b8ac97458a44bd6a8d2e597
   - enabled: 1
+    path: Assets/Scenes/Exterieur_V2.unity
+    guid: cc353ea0a939c544db51d5c220d33ed7
+  - enabled: 0
     path: Assets/Scenes/Exterieur-V2.unity
     guid: 6b0e0175b89c276449f2f90929666467
   - enabled: 1
