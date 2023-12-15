@@ -2600,7 +2600,8 @@ GameObject:
   - component: {fileID: 69821272}
   - component: {fileID: 69821274}
   - component: {fileID: 69821273}
-  m_Layer: 0
+  - component: {fileID: 69821275}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2672,6 +2673,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69821271}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &69821275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69821271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &70689570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4789,7 +4804,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 110181612}
-  m_Layer: 0
+  - component: {fileID: 110181613}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4811,6 +4827,20 @@ Transform:
   m_Father: {fileID: 434533027}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &110181613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110181611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &120041451
 GameObject:
   m_ObjectHideFlags: 0
@@ -7013,7 +7043,8 @@ GameObject:
   - component: {fileID: 174284713}
   - component: {fileID: 174284712}
   - component: {fileID: 174284711}
-  m_Layer: 0
+  - component: {fileID: 174284717}
+  m_Layer: 6
   m_Name: BoissonFontaine (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7237,9 +7268,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -7293,6 +7324,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174284709}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &174284717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174284709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &175988795
 GameObject:
   m_ObjectHideFlags: 0
@@ -8186,7 +8231,8 @@ GameObject:
   - component: {fileID: 207508745}
   - component: {fileID: 207508747}
   - component: {fileID: 207508746}
-  m_Layer: 0
+  - component: {fileID: 207508748}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8258,6 +8304,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 207508744}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &207508748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207508744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &211060642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8972,7 +9032,8 @@ GameObject:
   - component: {fileID: 229574661}
   - component: {fileID: 229574660}
   - component: {fileID: 229574659}
-  m_Layer: 0
+  - component: {fileID: 229574665}
+  m_Layer: 6
   m_Name: BoissonFontaine (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9196,9 +9257,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -9252,6 +9313,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229574657}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &229574665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229574657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1001 &231248032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10478,7 +10553,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 264521792}
-  m_Layer: 0
+  - component: {fileID: 264521793}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10500,6 +10576,20 @@ Transform:
   m_Father: {fileID: 174284710}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &264521793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264521791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &268985632
 GameObject:
   m_ObjectHideFlags: 0
@@ -11429,7 +11519,8 @@ GameObject:
   - component: {fileID: 289055647}
   - component: {fileID: 289055649}
   - component: {fileID: 289055648}
-  m_Layer: 0
+  - component: {fileID: 289055650}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11501,6 +11592,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289055646}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &289055650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289055646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &291455316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11982,7 +12087,8 @@ GameObject:
   - component: {fileID: 299720523}
   - component: {fileID: 299720522}
   - component: {fileID: 299720521}
-  m_Layer: 0
+  - component: {fileID: 299720527}
+  m_Layer: 6
   m_Name: BoissonFontaine (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12206,9 +12312,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -12262,6 +12368,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299720519}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &299720527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299720519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &304172897
 GameObject:
   m_ObjectHideFlags: 0
@@ -12542,7 +12662,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 307489576}
-  m_Layer: 0
+  - component: {fileID: 307489577}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12564,6 +12685,20 @@ Transform:
   m_Father: {fileID: 1579641046}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &307489577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307489575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &308027258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14733,7 +14868,8 @@ GameObject:
   - component: {fileID: 388089284}
   - component: {fileID: 388089286}
   - component: {fileID: 388089285}
-  m_Layer: 0
+  - component: {fileID: 388089287}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14805,6 +14941,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388089283}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &388089287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388089283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &390060447
 GameObject:
   m_ObjectHideFlags: 0
@@ -14816,7 +14966,8 @@ GameObject:
   - component: {fileID: 390060448}
   - component: {fileID: 390060450}
   - component: {fileID: 390060449}
-  m_Layer: 0
+  - component: {fileID: 390060451}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14888,6 +15039,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390060447}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &390060451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390060447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &393463508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16032,7 +16197,8 @@ GameObject:
   - component: {fileID: 434533030}
   - component: {fileID: 434533029}
   - component: {fileID: 434533028}
-  m_Layer: 0
+  - component: {fileID: 434533034}
+  m_Layer: 6
   m_Name: BoissonFontaine (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16256,9 +16422,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -16312,6 +16478,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434533026}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &434533034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434533026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &437206657
 GameObject:
   m_ObjectHideFlags: 0
@@ -17216,6 +17396,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5046996030933025524, guid: f26f201adc8c8984db748ee4286e99a8,
     type: 3}
   m_PrefabInstance: {fileID: 452961651}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &458922019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1470087677100648022, guid: 94b0b1569fa2f664daefecf0f4768ab3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2071558291}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &460179099
 PrefabInstance:
@@ -19078,7 +19264,8 @@ GameObject:
   - component: {fileID: 497148520}
   - component: {fileID: 497148522}
   - component: {fileID: 497148521}
-  m_Layer: 0
+  - component: {fileID: 497148523}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19150,6 +19337,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497148519}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &497148523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497148519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &500785016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20551,7 +20752,8 @@ GameObject:
   - component: {fileID: 537494492}
   - component: {fileID: 537494494}
   - component: {fileID: 537494493}
-  m_Layer: 0
+  - component: {fileID: 537494495}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20623,6 +20825,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537494491}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &537494495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537494491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &537617504
 GameObject:
   m_ObjectHideFlags: 0
@@ -21569,7 +21785,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 556207532}
-  m_Layer: 0
+  - component: {fileID: 556207533}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21591,6 +21808,20 @@ Transform:
   m_Father: {fileID: 1852130797}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &556207533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556207531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &557323466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23159,7 +23390,8 @@ GameObject:
   - component: {fileID: 584038541}
   - component: {fileID: 584038543}
   - component: {fileID: 584038542}
-  m_Layer: 0
+  - component: {fileID: 584038544}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23231,6 +23463,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584038540}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &584038544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584038540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &584495396
 GameObject:
   m_ObjectHideFlags: 0
@@ -23577,7 +23823,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 592462188}
-  m_Layer: 0
+  - component: {fileID: 592462189}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23599,6 +23846,20 @@ Transform:
   m_Father: {fileID: 858373937}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &592462189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592462187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &594885813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24176,7 +24437,8 @@ GameObject:
   - component: {fileID: 617162061}
   - component: {fileID: 617162063}
   - component: {fileID: 617162062}
-  m_Layer: 0
+  - component: {fileID: 617162064}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24248,6 +24510,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617162060}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &617162064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617162060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &621525620
 GameObject:
   m_ObjectHideFlags: 0
@@ -24764,7 +25040,8 @@ GameObject:
   - component: {fileID: 633445143}
   - component: {fileID: 633445145}
   - component: {fileID: 633445144}
-  m_Layer: 0
+  - component: {fileID: 633445146}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24836,6 +25113,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633445142}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &633445146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633445142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &634174297
 GameObject:
   m_ObjectHideFlags: 0
@@ -25793,7 +26084,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 659258215}
-  m_Layer: 0
+  - component: {fileID: 659258216}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25815,6 +26107,20 @@ Transform:
   m_Father: {fileID: 229574658}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &659258216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659258214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &664716789
 GameObject:
   m_ObjectHideFlags: 0
@@ -25973,7 +26279,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 672617106}
-  m_Layer: 0
+  - component: {fileID: 672617107}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25995,6 +26302,20 @@ Transform:
   m_Father: {fileID: 8545641328316888308}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &672617107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672617105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &674898139
 GameObject:
   m_ObjectHideFlags: 0
@@ -27981,7 +28302,8 @@ GameObject:
   - component: {fileID: 711470553}
   - component: {fileID: 711470555}
   - component: {fileID: 711470554}
-  m_Layer: 0
+  - component: {fileID: 711470556}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28053,6 +28375,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711470552}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &711470556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711470552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &712621835
 GameObject:
   m_ObjectHideFlags: 0
@@ -29137,7 +29473,8 @@ GameObject:
   - component: {fileID: 736453918}
   - component: {fileID: 736453920}
   - component: {fileID: 736453919}
-  m_Layer: 0
+  - component: {fileID: 736453921}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29209,6 +29546,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 736453917}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &736453921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736453917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &740245229
 GameObject:
   m_ObjectHideFlags: 0
@@ -31852,7 +32203,8 @@ GameObject:
   - component: {fileID: 858373940}
   - component: {fileID: 858373939}
   - component: {fileID: 858373938}
-  m_Layer: 0
+  - component: {fileID: 858373944}
+  m_Layer: 6
   m_Name: BoissonFontaine (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32076,9 +32428,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -32132,6 +32484,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858373936}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &858373944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858373936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &858640461
 GameObject:
   m_ObjectHideFlags: 0
@@ -32388,6 +32754,21 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2071558291}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &863938281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458922019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb29ad52c038ba468f8a5289cc8cea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
+  _sonGagnePoints: {fileID: 0}
+  _bac: {fileID: 458922019}
 --- !u!4 &863965452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6105395984399089040, guid: fd45cfa858d6dec4592e4623e7d2ef28,
@@ -33339,7 +33720,8 @@ GameObject:
   - component: {fileID: 896377307}
   - component: {fileID: 896377309}
   - component: {fileID: 896377308}
-  m_Layer: 0
+  - component: {fileID: 896377310}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33411,6 +33793,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 896377306}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &896377310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896377306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &898963176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35209,7 +35605,8 @@ GameObject:
   - component: {fileID: 950982457}
   - component: {fileID: 950982459}
   - component: {fileID: 950982458}
-  m_Layer: 0
+  - component: {fileID: 950982460}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35281,6 +35678,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 950982456}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &950982460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950982456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &957610435
 GameObject:
   m_ObjectHideFlags: 0
@@ -36053,7 +36464,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 996611580}
-  m_Layer: 0
+  - component: {fileID: 996611581}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36075,6 +36487,20 @@ Transform:
   m_Father: {fileID: 1578601743}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &996611581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996611579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &1000209115
 GameObject:
   m_ObjectHideFlags: 0
@@ -36733,7 +37159,8 @@ GameObject:
   - component: {fileID: 1026067965}
   - component: {fileID: 1026067967}
   - component: {fileID: 1026067966}
-  m_Layer: 0
+  - component: {fileID: 1026067968}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36805,6 +37232,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026067964}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1026067968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026067964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &1026100967
 GameObject:
   m_ObjectHideFlags: 0
@@ -38773,7 +39214,8 @@ GameObject:
   - component: {fileID: 1072380867}
   - component: {fileID: 1072380866}
   - component: {fileID: 1072380865}
-  m_Layer: 0
+  - component: {fileID: 1072380871}
+  m_Layer: 6
   m_Name: BoissonFontaine (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38997,9 +39439,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -39053,6 +39495,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072380863}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1072380871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072380863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &1076207752
 GameObject:
   m_ObjectHideFlags: 0
@@ -41119,7 +41575,8 @@ GameObject:
   - component: {fileID: 1175677339}
   - component: {fileID: 1175677341}
   - component: {fileID: 1175677340}
-  m_Layer: 0
+  - component: {fileID: 1175677342}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41191,6 +41648,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1175677338}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1175677342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175677338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &1177466033 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5229679502594894579, guid: a934e90887343f947b81bfdd894ba2c2,
@@ -43389,7 +43860,8 @@ GameObject:
   - component: {fileID: 1255897389}
   - component: {fileID: 1255897388}
   - component: {fileID: 1255897387}
-  m_Layer: 0
+  - component: {fileID: 1255897393}
+  m_Layer: 6
   m_Name: BoissonFontaine (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43613,9 +44085,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -43669,6 +44141,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255897385}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1255897393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255897385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &1257292339
 GameObject:
   m_ObjectHideFlags: 0
@@ -45383,7 +45869,8 @@ GameObject:
   - component: {fileID: 1340901764}
   - component: {fileID: 1340901763}
   - component: {fileID: 1340901762}
-  m_Layer: 0
+  - component: {fileID: 1340901768}
+  m_Layer: 6
   m_Name: BoissonFontaine (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45607,9 +46094,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -45663,6 +46150,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340901760}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1340901768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340901760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &1347333314
 GameObject:
   m_ObjectHideFlags: 0
@@ -47680,7 +48181,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1394649830}
-  m_Layer: 0
+  - component: {fileID: 1394649831}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47702,6 +48204,20 @@ Transform:
   m_Father: {fileID: 1340901761}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394649831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394649829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &1396301463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48275,7 +48791,8 @@ GameObject:
   - component: {fileID: 1400292892}
   - component: {fileID: 1400292891}
   - component: {fileID: 1400292890}
-  m_Layer: 0
+  - component: {fileID: 1400292896}
+  m_Layer: 6
   m_Name: BoissonFontaine (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48499,9 +49016,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -48555,6 +49072,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400292888}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1400292896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400292888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &1401615830
 GameObject:
   m_ObjectHideFlags: 0
@@ -48566,7 +49097,8 @@ GameObject:
   - component: {fileID: 1401615831}
   - component: {fileID: 1401615833}
   - component: {fileID: 1401615832}
-  m_Layer: 0
+  - component: {fileID: 1401615834}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48638,6 +49170,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401615830}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1401615834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401615830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &1409801958
 GameObject:
   m_ObjectHideFlags: 0
@@ -49020,7 +49566,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1424425322}
-  m_Layer: 0
+  - component: {fileID: 1424425323}
+  m_Layer: 6
   m_Name: Boisson
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49055,6 +49602,20 @@ Transform:
   m_Father: {fileID: 308559624}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1424425323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424425321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &1425351412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51694,7 +52255,8 @@ GameObject:
   - component: {fileID: 1503528375}
   - component: {fileID: 1503528377}
   - component: {fileID: 1503528376}
-  m_Layer: 0
+  - component: {fileID: 1503528378}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51766,6 +52328,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503528374}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1503528378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503528374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &1505964615
 GameObject:
   m_ObjectHideFlags: 0
@@ -52070,7 +52646,8 @@ GameObject:
   - component: {fileID: 1505991827}
   - component: {fileID: 1505991829}
   - component: {fileID: 1505991828}
-  m_Layer: 0
+  - component: {fileID: 1505991830}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52142,6 +52719,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505991826}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1505991830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505991826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &1505997314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53958,7 +54549,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1566344187}
-  m_Layer: 0
+  - component: {fileID: 1566344188}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53980,6 +54572,20 @@ Transform:
   m_Father: {fileID: 1072380864}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1566344188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566344186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &1568060130
 GameObject:
   m_ObjectHideFlags: 0
@@ -53991,7 +54597,8 @@ GameObject:
   - component: {fileID: 1568060131}
   - component: {fileID: 1568060133}
   - component: {fileID: 1568060132}
-  m_Layer: 0
+  - component: {fileID: 1568060134}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54063,6 +54670,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568060130}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1568060134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568060130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &1568513942
 GameObject:
   m_ObjectHideFlags: 0
@@ -54369,7 +54990,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1574105078}
-  m_Layer: 0
+  - component: {fileID: 1574105079}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54391,6 +55013,20 @@ Transform:
   m_Father: {fileID: 299720520}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1574105079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574105077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &1574355301
 GameObject:
   m_ObjectHideFlags: 0
@@ -54699,7 +55335,8 @@ GameObject:
   - component: {fileID: 1578601746}
   - component: {fileID: 1578601745}
   - component: {fileID: 1578601744}
-  m_Layer: 0
+  - component: {fileID: 1578601750}
+  m_Layer: 6
   m_Name: BoissonFontaine (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54923,9 +55560,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -54979,6 +55616,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578601742}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1578601750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578601742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &1579641045
 GameObject:
   m_ObjectHideFlags: 0
@@ -54994,7 +55645,8 @@ GameObject:
   - component: {fileID: 1579641049}
   - component: {fileID: 1579641048}
   - component: {fileID: 1579641047}
-  m_Layer: 0
+  - component: {fileID: 1579641053}
+  m_Layer: 6
   m_Name: BoissonFontaine (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55218,9 +55870,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -55274,6 +55926,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579641045}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1579641053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579641045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &1580633194
 GameObject:
   m_ObjectHideFlags: 0
@@ -60847,7 +61513,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1726477988}
-  m_Layer: 0
+  - component: {fileID: 1726477989}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -60869,6 +61536,20 @@ Transform:
   m_Father: {fileID: 1400292889}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1726477989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726477987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &1729252034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64028,7 +64709,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1813221390}
-  m_Layer: 0
+  - component: {fileID: 1813221391}
+  m_Layer: 6
   m_Name: AttachPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64050,6 +64732,20 @@ Transform:
   m_Father: {fileID: 1255897386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1813221391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813221389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &1820067023
 GameObject:
   m_ObjectHideFlags: 0
@@ -65083,7 +65779,8 @@ GameObject:
   - component: {fileID: 1852130800}
   - component: {fileID: 1852130799}
   - component: {fileID: 1852130798}
-  m_Layer: 0
+  - component: {fileID: 1852130804}
+  m_Layer: 6
   m_Name: BoissonFontaine (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65307,9 +66004,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -65363,6 +66060,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852130796}
   m_Mesh: {fileID: 8198619208410799617, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1852130804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852130796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &1852192010
 GameObject:
   m_ObjectHideFlags: 0
@@ -68487,7 +69198,8 @@ GameObject:
   - component: {fileID: 1953278573}
   - component: {fileID: 1953278575}
   - component: {fileID: 1953278574}
-  m_Layer: 0
+  - component: {fileID: 1953278576}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68559,6 +69271,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1953278572}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1953278576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953278572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &1957671332
 GameObject:
   m_ObjectHideFlags: 0
@@ -68968,7 +69694,8 @@ GameObject:
   - component: {fileID: 1973233517}
   - component: {fileID: 1973233519}
   - component: {fileID: 1973233518}
-  m_Layer: 0
+  - component: {fileID: 1973233520}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69040,6 +69767,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973233516}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &1973233520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973233516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1001 &1974240608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71533,6 +72274,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Poubelle
       objectReference: {fileID: 0}
+    - target: {fileID: 4044267325454984244, guid: 94b0b1569fa2f664daefecf0f4768ab3,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044267325454984249, guid: 94b0b1569fa2f664daefecf0f4768ab3,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044267325454984250, guid: 94b0b1569fa2f664daefecf0f4768ab3,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044267325454984251, guid: 94b0b1569fa2f664daefecf0f4768ab3,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6758556085888329084, guid: 94b0b1569fa2f664daefecf0f4768ab3,
         type: 3}
       propertyPath: m_RootOrder
@@ -71591,7 +72352,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1470087677100648022, guid: 94b0b1569fa2f664daefecf0f4768ab3,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 863938281}
   m_SourcePrefab: {fileID: 100100000, guid: 94b0b1569fa2f664daefecf0f4768ab3, type: 3}
 --- !u!1001 &2074998580
 PrefabInstance:
@@ -73293,7 +74058,8 @@ GameObject:
   - component: {fileID: 2134284345}
   - component: {fileID: 2134284347}
   - component: {fileID: 2134284346}
-  m_Layer: 0
+  - component: {fileID: 2134284348}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73365,6 +74131,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134284344}
   m_Mesh: {fileID: 4293751317952506913, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &2134284348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134284344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &2136825700
 GameObject:
   m_ObjectHideFlags: 0
@@ -73376,7 +74156,8 @@ GameObject:
   - component: {fileID: 2136825701}
   - component: {fileID: 2136825703}
   - component: {fileID: 2136825702}
-  m_Layer: 0
+  - component: {fileID: 2136825704}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73448,6 +74229,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136825700}
   m_Mesh: {fileID: -5486331822824694941, guid: b9c054b445d458c45bcb601fd368e786, type: 3}
+--- !u!114 &2136825704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136825700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!1 &2139468668
 GameObject:
   m_ObjectHideFlags: 0
@@ -74060,9 +74855,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.23230252, y: 0.15099558, z: 0.22825453}
   m_Center: {x: 0.00225766, y: 0.07328834, z: 0.00033798814}
@@ -74196,9 +74991,9 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.19822109, y: 0.31202173, z: 0.19822109}
   m_Center: {x: 0, y: 0.15648896, z: -0.000000014901161}
@@ -74333,7 +75128,8 @@ GameObject:
   - component: {fileID: 8545641328316888311}
   - component: {fileID: 8545641328316888310}
   - component: {fileID: 8545641328316888309}
-  m_Layer: 0
+  - component: {fileID: 8545641328316888312}
+  m_Layer: 6
   m_Name: BoissonFontaine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74994,13 +75790,28 @@ GameObject:
   - component: {fileID: 3472784366810740717}
   - component: {fileID: 742415095584198823}
   - component: {fileID: 1791073667667675966}
-  m_Layer: 0
+  - component: {fileID: 4472811482617546709}
+  m_Layer: 6
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4472811482617546709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4472811482617546708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!65 &4518994422802376642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75628,7 +76439,8 @@ GameObject:
   - component: {fileID: 8836083294434516617}
   - component: {fileID: 3587138023990640812}
   - component: {fileID: 6666325763143342750}
-  m_Layer: 0
+  - component: {fileID: 8836083294434516618}
+  m_Layer: 6
   m_Name: Straw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75787,7 +76599,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 0
   serializedVersion: 3
@@ -76476,6 +77288,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8545641328316888312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048547736909307772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 2
+  _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
 --- !u!1 &8590483032654667987
 GameObject:
   m_ObjectHideFlags: 0
@@ -76575,6 +77401,20 @@ Transform:
   m_Father: {fileID: 8545641328316888308}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8836083294434516618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362939944993230779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e5a2bdbea89f4498a2de2e0fbc19b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _valeur: 0
+  _infosPoints: {fileID: 0}
 --- !u!23 &8874036061059839503
 MeshRenderer:
   m_ObjectHideFlags: 0

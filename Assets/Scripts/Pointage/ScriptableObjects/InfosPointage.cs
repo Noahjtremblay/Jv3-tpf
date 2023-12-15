@@ -12,4 +12,15 @@ public class InfosPointage : ScriptableObject
     
     public int total;
 
+
+     public void ResetPoints(){
+
+       nbPoints = 0;
+    
+         total = 0;
+
+    }
+
+
+
 }
