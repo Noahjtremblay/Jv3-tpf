@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89db77c161d9036489666bc9e25400ac, type: 3}
   m_Name: InfosTimer
   m_EditorClassIdentifier: 
-  temps: 13.836932
-  tempsInitial: 20
+  temps: 116.42661
+  tempsInitial: 120
