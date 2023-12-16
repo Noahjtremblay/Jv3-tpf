@@ -29,7 +29,7 @@ public class NourritureManger : MonoBehaviour
             if(other.transform.tag == "Player"){ 
 
             _infosPoints.nbPoints += 1;
-            _infosPoints.total = _infosPoints.nbPoints; //L'update de points total
+            
 
             // _audioSource.clip = _sonGagnePoints;
            // _audioSource.Play();

@@ -25,11 +25,11 @@ public class ObjetsPoubelle : MonoBehaviour
 
       void OnCollisionEnter(Collision other){
         
-        if(other.transform.tag == "ObjetsPoubelle" && _infosPoints.poubelle == false){ 
+        if(other.transform.tag == "Poubelle"){ 
 
 
 
-        _infosPoints.poubelle = true; //dit que le joueur à un déchet et l'indique dans le scriptable Object du joueur.
+       
 
         Destroy(gameObject); //détruit le déchet pour qu'il ne soit plus visible dans l'environnement
 

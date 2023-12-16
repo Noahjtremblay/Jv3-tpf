@@ -36,11 +36,11 @@ private GameObject _bac;
     void OnTriggerEnter(Collider other){
 
 
-if(other.CompareTag("ObjetsPoubelle") && _infosPoints.poubelle == true){ 
+if(other.CompareTag("ObjetsPoubelle")){ 
 
-            _infosPoints.nbPoints += 1; //quand le joueur touche le bac le scriptable object de point est augmenté de 1
-            _infosPoints.poubelle = false; //le scriptable object de poubelle revient à false
-            _infosPoints.total = _infosPoints.nbPoints; //L'update de points total
+            _infosPoints.nbPoints += 2; //quand le joueur touche le bac le scriptable object de point est augmenté de 1
+            //le scriptable object de poubelle revient à false
+             //L'update de points total
 
              _audioSource.clip = _sonGagnePoints;
             _audioSource.Play();
