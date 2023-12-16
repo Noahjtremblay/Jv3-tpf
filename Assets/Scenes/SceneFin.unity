@@ -6019,6 +6019,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasAccueil
       objectReference: {fileID: 0}
+    - target: {fileID: 3385611449482411748, guid: af02ee56a5d06f44b95cf5bf7b42e482,
+        type: 3}
+      propertyPath: m_text
+      value: Reommencer
+      objectReference: {fileID: 0}
     - target: {fileID: 3763394997063023305, guid: af02ee56a5d06f44b95cf5bf7b42e482,
         type: 3}
       propertyPath: m_AnchorMax.x
