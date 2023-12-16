@@ -22,6 +22,6 @@ public class AffichageTimer : MonoBehaviour
       //Convertir le temps en secondes
       TimeSpan ts = TimeSpan.FromSeconds(temps);
 
-      _champTexteTemps.text = string.Format("{0:00}:{1:00}:{2:00}:{3:000}",ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds);
+      _champTexteTemps.text = string.Format("{0:00}:{1:00}", ts.Minutes, ts.Seconds);
     }
 }
