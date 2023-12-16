@@ -5,15 +5,18 @@ using TMPro;
 
 public class GestionnairePoints : MonoBehaviour
 {
+    [Header("Scriptable Object")]
 
-    [Space(10)]
+
+[SerializeField]
+private InfosPointage _infosPoints;
+
+
+[Space(10)]
 [Header("Affichage Points")]
 [SerializeField]
 private TMP_Text _points;
 
-
-[SerializeField]
-private TMP_Text _pointsTotal;
 
 
     // Start is called before the first frame update
@@ -28,17 +31,11 @@ private TMP_Text _pointsTotal;
         AffichagePoints();
     }
 
-     void AffichagePoints(){
+   void AffichagePoints(){
 
-        _points.text = _joueur.nbPoints.ToString();
-        _pointsNegatifs.text = _joueur.nbPointsNeg.ToString();
-        _pointsTotal.text = _joueur.total.ToString();
-
-        if(_joueur.total >= _niveau.nbPointsAFaire){
-
-            _gestionScenes.SceneCredit();
-
+        _points.text = _infosPoints.nbPoints.ToString();
+        
 
         }
    }
-}
+
