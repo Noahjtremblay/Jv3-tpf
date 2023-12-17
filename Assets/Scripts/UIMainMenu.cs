@@ -9,6 +9,8 @@ public class UIMainMenu : MonoBehaviour
     [SerializeField] Button _newGame;
     [SerializeField] Button _quitGame;
 
+    [SerializeField] Button _restartGame;
+
     private LevelManager _LevelManager;
 
     // Start is called before the first frame update
@@ -17,6 +19,7 @@ public class UIMainMenu : MonoBehaviour
         _LevelManager = LevelManager.Instance;
         _newGame.onClick.AddListener(StartNewGame);
         _quitGame.onClick.AddListener(QuitGame);
+        _restartGame.onClick.AddListener(RestartGame);
     }
 
     private void StartNewGame()
@@ -27,5 +30,10 @@ public class UIMainMenu : MonoBehaviour
     private void QuitGame()
     {
         _LevelManager.QuitGame();
+    }
+
+    private void RestartGame(){
+
+        _LevelManager.LoadAsyncScene(LevelManager.Scene.SceneDepart);
     }
 }
