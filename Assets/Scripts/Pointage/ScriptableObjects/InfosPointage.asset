@@ -12,6 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db23e1777833d724f88550d5db4df9bf, type: 3}
   m_Name: InfosPointage
   m_EditorClassIdentifier: 
-  poubelle: 0
-  nbPoints: 0
-  total: 0
+  nbPoints: 6
