@@ -49,6 +49,7 @@ public class LevelManager : MonoBehaviour
 
     public async void LoadAsyncScene(Scene sceneName)
     {
+        Debug.Log($"Test: " + sceneName.ToString());
         var sceneLoad = SceneManager.LoadSceneAsync(sceneName.ToString());
         sceneLoad.allowSceneActivation = false;
 

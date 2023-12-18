@@ -17,7 +17,8 @@ public class UIMainMenu : MonoBehaviour
     void Start()
     {
         _LevelManager = LevelManager.Instance;
-        _newGame.onClick.AddListener(StartNewGame);
+       
+       if(_newGame != null) _newGame.onClick.AddListener(StartNewGame);
         _quitGame.onClick.AddListener(QuitGame);
         _restartGame.onClick.AddListener(RestartGame);
     }
