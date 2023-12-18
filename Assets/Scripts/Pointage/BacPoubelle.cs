@@ -38,7 +38,7 @@ private GameObject _bac;
 
 if(other.CompareTag("ObjetsPoubelle")){ 
 
-            _infosPoints.nbPoints += 2; //quand le joueur touche le bac le scriptable object de point est augmenté de 1
+            _infosPoints.nbPoints += 1; //quand le joueur touche le bac le scriptable object de point est augmenté de 1
             //le scriptable object de poubelle revient à false
              //L'update de points total
 

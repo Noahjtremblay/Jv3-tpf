@@ -6,6 +6,8 @@ TagManager:
   tags:
   - UI
   - key
+  - ObjetsPoubelle
+  - Poubelle
   layers:
   - Default
   - TransparentFX
