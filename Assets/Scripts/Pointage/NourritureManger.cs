@@ -9,24 +9,10 @@ public class NourritureManger : MonoBehaviour
 
     [SerializeField]
     private InfosPointage _infosPoints;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
-
-        void OnCollisionEnter(Collision other){
-
-
-            if(other.transform.tag == "Player"){ 
+     void OnTriggerEnter(Collider other) {
+         if(other.transform.tag == "MainCamera"){ 
 
             _infosPoints.nbPoints += 1;
             
@@ -35,8 +21,27 @@ public class NourritureManger : MonoBehaviour
            // _audioSource.Play();
 
              Destroy(gameObject);
+         }
+
+        
+    }
+
+    void OnCollisionEnter(Collision other){
+
+
+        if(other.transform.tag == "MainCamera"){ 
+
+            _infosPoints.nbPoints += 1;
+            
+
+            // _audioSource.clip = _sonGagnePoints;
+           // _audioSource.Play();
+
+            Destroy(gameObject);
+
+
+        }
 
 
     }
-}
 }
