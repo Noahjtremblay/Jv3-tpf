@@ -71,6 +71,7 @@ public class LevelManager : MonoBehaviour
         Exterieur_V2,
         SceneSalleAManger,
         Cuisine,
-        BreakRoom
+        BreakRoom,
+        SceneFin
     }
 }
