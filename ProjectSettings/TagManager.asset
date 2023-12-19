@@ -3,17 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - UI
+  - key
+  - ObjetsPoubelle
+  - Poubelle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - PostProcessing
   - Water
   - UI
-  - 
-  - 
-  - 
+  - ObjetsPoubelle
+  - Player
+  - Poubelle
   - 
   - 
   - 

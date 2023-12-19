@@ -355,6 +355,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 253198100427067749, guid: d2095af7781f55748bd0919dddd3f5b4,
+        type: 3}
+      propertyPath: m_RightHandSnapTurnAction.m_Reference
+      value: 
+      objectReference: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f,
+        type: 3}
+    - target: {fileID: 253198100427067749, guid: d2095af7781f55748bd0919dddd3f5b4,
+        type: 3}
+      propertyPath: m_RightHandSnapTurnAction.m_UseReference
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2053809528671172579, guid: d2095af7781f55748bd0919dddd3f5b4,
         type: 3}
       propertyPath: m_Name
