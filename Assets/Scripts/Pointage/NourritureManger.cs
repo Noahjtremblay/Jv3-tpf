@@ -9,6 +9,9 @@ public class NourritureManger : MonoBehaviour
 
     [SerializeField]
     private InfosPointage _infosPoints;
+
+    [SerializeField]
+    private AudioSource _audioSource;
    
 
      void OnTriggerEnter(Collider other) {
@@ -16,9 +19,7 @@ public class NourritureManger : MonoBehaviour
 
             _infosPoints.nbPoints += 1;
             
-
-            // _audioSource.clip = _sonGagnePoints;
-           // _audioSource.Play();
+            _audioSource.Play();
 
              Destroy(gameObject);
          }
