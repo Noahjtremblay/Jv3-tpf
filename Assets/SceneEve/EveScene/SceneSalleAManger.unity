@@ -1262,6 +1262,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1372,6 +1377,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1831,6 +1841,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3869,6 +3884,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1736908509}
     m_Modifications:
+    - target: {fileID: 253319878458921608, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 3787125649059214713, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
         type: 3}
       propertyPath: m_RootOrder
@@ -7056,6 +7076,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7238,6 +7263,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1736908509}
     m_Modifications:
+    - target: {fileID: 253319878458921608, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 3787125649059214713, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
         type: 3}
       propertyPath: m_RootOrder
@@ -7475,6 +7505,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8733,6 +8768,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11963,6 +12003,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1736908509}
     m_Modifications:
+    - target: {fileID: 253319878458921608, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 3787125649059214713, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
         type: 3}
       propertyPath: m_RootOrder
@@ -13429,6 +13474,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15543,6 +15593,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17872,6 +17927,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18058,6 +18118,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1736908509}
     m_Modifications:
+    - target: {fileID: 253319878458921608, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 3787125649059214713, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
         type: 3}
       propertyPath: m_RootOrder
@@ -19405,6 +19470,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21061,6 +21131,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CroquettesDePoulet (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5422317924361819888, guid: 2cb80e2a7462bf1419df4f229317d945,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 7103286777816291831, guid: 2cb80e2a7462bf1419df4f229317d945,
         type: 3}
       propertyPath: m_RootOrder
@@ -22405,6 +22480,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CroquettesDePoulet (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5422317924361819888, guid: 2cb80e2a7462bf1419df4f229317d945,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 7103286777816291831, guid: 2cb80e2a7462bf1419df4f229317d945,
         type: 3}
       propertyPath: m_RootOrder
@@ -23667,6 +23747,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25545,6 +25630,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CroquettesDePoulet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5422317924361819888, guid: 2cb80e2a7462bf1419df4f229317d945,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 7103286777816291831, guid: 2cb80e2a7462bf1419df4f229317d945,
         type: 3}
       propertyPath: m_RootOrder
@@ -26680,6 +26770,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -26855,6 +26950,8 @@ Transform:
   - {fileID: 1309868940}
   - {fileID: 76518977}
   - {fileID: 1111993100}
+  - {fileID: 1835975841}
+  - {fileID: 1097125669}
   m_Father: {fileID: 299428181}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27433,8 +27530,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
+  _valeur: 2
   _sonGagnePoints: {fileID: 8300000, guid: 6bfb1d30e5b19fd44a8f1746b0ec357c, type: 3}
   _bac: {fileID: 458922019}
+  _audioSource: {fileID: 1097125670}
 --- !u!4 &863965452 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6105395984399089040, guid: fd45cfa858d6dec4592e4623e7d2ef28,
@@ -27636,8 +27735,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
+  _valeur: 2
   _sonGagnePoints: {fileID: 8300000, guid: 6bfb1d30e5b19fd44a8f1746b0ec357c, type: 3}
   _bac: {fileID: 866490994}
+  _audioSource: {fileID: 1097125670}
 --- !u!1 &868124150
 GameObject:
   m_ObjectHideFlags: 0
@@ -28955,6 +29056,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1736908509}
     m_Modifications:
+    - target: {fileID: 253319878458921608, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 3787125649059214713, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
         type: 3}
       propertyPath: m_RootOrder
@@ -31593,6 +31699,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33101,6 +33212,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096304806}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1097125668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097125669}
+  - component: {fileID: 1097125670}
+  m_Layer: 0
+  m_Name: PointPoubelle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1097125669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097125668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -48.56, y: 18.6, z: -29}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 832997521}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1097125670
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097125668}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -1744186467785224664, guid: 522574eebe1a2ef49b07826b5f0e41e9,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 6bfb1d30e5b19fd44a8f1746b0ec357c, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1111993099
 GameObject:
   m_ObjectHideFlags: 0
@@ -34646,6 +34886,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -37115,6 +37360,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CroquettesDePoulet
       objectReference: {fileID: 0}
+    - target: {fileID: 5422317924361819888, guid: 2cb80e2a7462bf1419df4f229317d945,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 7103286777816291831, guid: 2cb80e2a7462bf1419df4f229317d945,
         type: 3}
       propertyPath: m_RootOrder
@@ -42280,6 +42530,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -44621,6 +44876,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -45500,6 +45760,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CroquettesDePoulet (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5422317924361819888, guid: 2cb80e2a7462bf1419df4f229317d945,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 7103286777816291831, guid: 2cb80e2a7462bf1419df4f229317d945,
         type: 3}
       propertyPath: m_RootOrder
@@ -46256,6 +46521,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47153,8 +47423,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _infosPoints: {fileID: 11400000, guid: 02371b2bb7a91e74a867c507e734e321, type: 2}
+  _valeur: 2
   _sonGagnePoints: {fileID: 8300000, guid: 6bfb1d30e5b19fd44a8f1746b0ec357c, type: 3}
   _bac: {fileID: 1626243381}
+  _audioSource: {fileID: 1097125670}
 --- !u!1001 &1630155583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48120,6 +48392,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -50122,17 +50399,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
         type: 3}
+      propertyPath: _valeur
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
       propertyPath: _audioSource
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4205251135471905348, guid: 1064b11b2de52c34f8f5d13afa854b99,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1710733411}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1064b11b2de52c34f8f5d13afa854b99, type: 3}
 --- !u!4 &1710733409 stripped
 Transform:
@@ -50140,109 +50418,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1710733408}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1710733410 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4205251135471905348, guid: 1064b11b2de52c34f8f5d13afa854b99,
-    type: 3}
-  m_PrefabInstance: {fileID: 1710733408}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1710733411
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710733410}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -1744186467785224664, guid: 522574eebe1a2ef49b07826b5f0e41e9,
-    type: 2}
-  m_audioClip: {fileID: 8300000, guid: 28de0b5c52fbbd74082223a86a9447ce, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &1712245695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50414,6 +50589,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1736908509}
     m_Modifications:
+    - target: {fileID: 253319878458921608, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 3787125649059214713, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
         type: 3}
       propertyPath: m_RootOrder
@@ -50804,6 +50984,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51596,6 +51781,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CroquettesDePoulet (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5422317924361819888, guid: 2cb80e2a7462bf1419df4f229317d945,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 7103286777816291831, guid: 2cb80e2a7462bf1419df4f229317d945,
         type: 3}
       propertyPath: m_RootOrder
@@ -54045,6 +54235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -54429,6 +54624,135 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1828476251}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1835975840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1835975841}
+  - component: {fileID: 1835975842}
+  m_Layer: 0
+  m_Name: MangerBouffe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1835975841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835975840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -46.204, y: 19.11, z: -24.22}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 832997521}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1835975842
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835975840}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -1744186467785224664, guid: 522574eebe1a2ef49b07826b5f0e41e9,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 28de0b5c52fbbd74082223a86a9447ce, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 0
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1840001872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54794,6 +55118,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1736908509}
     m_Modifications:
+    - target: {fileID: 253319878458921608, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 3787125649059214713, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
         type: 3}
       propertyPath: m_RootOrder
@@ -55758,6 +56087,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CroquettesDePoulet (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5422317924361819888, guid: 2cb80e2a7462bf1419df4f229317d945,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 7103286777816291831, guid: 2cb80e2a7462bf1419df4f229317d945,
         type: 3}
       propertyPath: m_RootOrder
@@ -55937,6 +56271,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1736908509}
     m_Modifications:
+    - target: {fileID: 253319878458921608, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 3787125649059214713, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
         type: 3}
       propertyPath: m_RootOrder
@@ -57706,6 +58045,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58437,6 +58781,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -59166,6 +59515,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1) (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60752,6 +61106,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1736908509}
     m_Modifications:
+    - target: {fileID: 253319878458921608, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 3787125649059214713, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
         type: 3}
       propertyPath: m_RootOrder
@@ -62459,6 +62818,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burger(1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _valeur
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5256251459650866445, guid: 1064b11b2de52c34f8f5d13afa854b99,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 5581406477690029438, guid: 1064b11b2de52c34f8f5d13afa854b99,
         type: 3}
       propertyPath: m_InteractionManager
@@ -62739,6 +63108,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CroquettesDePoulet
       objectReference: {fileID: 0}
+    - target: {fileID: 5422317924361819888, guid: 2cb80e2a7462bf1419df4f229317d945,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 7103286777816291831, guid: 2cb80e2a7462bf1419df4f229317d945,
         type: 3}
       propertyPath: m_RootOrder
@@ -63395,6 +63769,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1736908509}
     m_Modifications:
+    - target: {fileID: 253319878458921608, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 1835975842}
     - target: {fileID: 1781742562395292939, guid: 71f6d0c0d610a5e4baa9ed4a7c8e7d4a,
         type: 3}
       propertyPath: m_InteractionManager

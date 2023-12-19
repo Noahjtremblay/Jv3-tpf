@@ -17,7 +17,8 @@ public class NourritureManger : MonoBehaviour
      void OnTriggerEnter(Collider other) {
          if(other.transform.tag == "MainCamera"){ 
 
-            _infosPoints.nbPoints += 1;
+            _infosPoints.nbPoints += _valeur;
+            
             
             _audioSource.Play();
 
