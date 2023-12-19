@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: InfosTimer
   m_EditorClassIdentifier: 
   temps: 0
-  tempsInitial: 420
+  tempsInitial: 5
