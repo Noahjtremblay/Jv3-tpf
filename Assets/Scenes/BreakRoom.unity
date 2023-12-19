@@ -8894,7 +8894,7 @@ GameObject:
   - component: {fileID: 1054752350}
   - component: {fileID: 1054752349}
   - component: {fileID: 1054752348}
-  - component: {fileID: 1054752347}
+  - component: {fileID: 1054752351}
   m_Layer: 0
   m_Name: "t\xE9l\xE9portation"
   m_TagString: Untagged
@@ -8917,18 +8917,6 @@ Transform:
   m_Father: {fileID: 101879915}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1054752347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1054752345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8eb8c962ff8516a4caea2fd771bea3d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &1054752348
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9002,6 +8990,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054752345}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1054752351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054752345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73828e3e810ea948b493b5d5ae5c18f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1066110206
 PrefabInstance:
   m_ObjectHideFlags: 0
