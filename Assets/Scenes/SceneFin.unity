@@ -4103,6 +4103,50 @@ Transform:
   m_Father: {fileID: 636102910}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1530369132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1530369134}
+  - component: {fileID: 1530369133}
+  m_Layer: 0
+  m_Name: ScriptBoutons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1530369133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530369132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eff56ddd46cbcb4e9ec71c97bd7196b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1530369134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530369132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.4599664, y: 3.6352038, z: 2.3103962}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1603410511
 GameObject:
   m_ObjectHideFlags: 0
@@ -4912,7 +4956,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2019087822
 PrefabInstance:
@@ -5058,7 +5102,7 @@ PrefabInstance:
     - target: {fileID: 931936106196628779, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 931936106196628779, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
@@ -5069,7 +5113,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1530369133}
     - target: {fileID: 931936106196628779, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -5078,12 +5122,12 @@ PrefabInstance:
     - target: {fileID: 931936106196628779, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitterJeu
+      value: QuitGame
       objectReference: {fileID: 0}
     - target: {fileID: 931936106196628779, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BtnRecommencer, Assembly-CSharp
+      value: Boutons, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 931936106196628779, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
@@ -5203,7 +5247,7 @@ PrefabInstance:
     - target: {fileID: 7264149248568420253, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7264149248568420253, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
@@ -5214,7 +5258,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1530369133}
     - target: {fileID: 7264149248568420253, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -5223,12 +5267,12 @@ PrefabInstance:
     - target: {fileID: 7264149248568420253, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RetourAccueil
+      value: RestartGame
       objectReference: {fileID: 0}
     - target: {fileID: 7264149248568420253, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: BtnRecommencer, Assembly-CSharp
+      value: Boutons, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7264149248568420253, guid: a822ffc778b347647a831ceda8d19483,
         type: 3}
