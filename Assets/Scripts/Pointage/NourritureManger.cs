@@ -27,22 +27,5 @@ public class NourritureManger : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision other){
-
-
-        if(other.transform.tag == "MainCamera"){ 
-
-            _infosPoints.nbPoints += 1;
-            
-
-            // _audioSource.clip = _sonGagnePoints;
-           // _audioSource.Play();
-
-            Destroy(gameObject);
-
-
-        }
-
-
-    }
+    
 }
