@@ -2,14 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class UIMainMenu : MonoBehaviour
+public class Boutons : MonoBehaviour
 {
-    [SerializeField] Button _newGame;
-    [SerializeField] Button _quitGame;
-
-    [SerializeField] Button _restartGame;
 
     private LevelManager _LevelManager;
 
@@ -17,22 +12,19 @@ public class UIMainMenu : MonoBehaviour
     void Start()
     {
         _LevelManager = LevelManager.Instance;
-        if(_newGame != null)_newGame.onClick.AddListener(StartNewGame);
-        _quitGame.onClick.AddListener(QuitGame);
-        _restartGame.onClick.AddListener(RestartGame);
     }
 
-    private void StartNewGame()
+    public void StartNewGame()
     {
         _LevelManager.LoadAsyncScene(LevelManager.Scene.Exterieur_V2);
     }
 
-    private void QuitGame()
+    public void QuitGame()
     {
         _LevelManager.QuitGame();
     }
 
-    private void RestartGame(){
+    public void RestartGame(){
 
         _LevelManager.LoadAsyncScene(LevelManager.Scene.SceneDepart);
     }
